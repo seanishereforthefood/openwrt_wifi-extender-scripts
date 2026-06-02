@@ -19,6 +19,8 @@ This script was created with the assistance of AI.
 
 ## Usage
 
+# Note: Connecting directly to the OpenWRT device via LAN port is recomended. 
+
 ```bash
 ./openwrt-wifi-extender.sh [OPTIONS]
 
