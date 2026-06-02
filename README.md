@@ -30,6 +30,24 @@ Options:
   -S, --signal-threshold N  Set custom signal threshold (default: -85 dBm)
   -d, --debug              Enable debug mode
   -h, --help               Show help message
+
+root@OpenWrt:~# ./openwrt-wifi-extender.sh -h
+Usage: ./openwrt-wifi-extender.sh [OPTIONS]
+
+Options:
+  -s, --no-filter           Disable signal strength filtering
+  -S, --signal-threshold N  Set signal threshold (default: -85 dBm)
+                           Networks weaker than N dBm will be filtered
+  -d, --debug              Enable debug mode
+  -h, --help               Show this help message
+
+Examples:
+  ./openwrt-wifi-extender.sh                    # Use default filtering (-85 dBm or better)
+  ./openwrt-wifi-extender.sh -s                 # Show all visible networks
+  ./openwrt-wifi-extender.sh -S 70              # Only show -70 dBm or better
+  ./openwrt-wifi-extender.sh -S -75             # Only show -75 dBm or better
+root@OpenWrt:~# 
+
 ```
 
 ## Background and history
