@@ -52,7 +52,7 @@ root@OpenWrt:~#
 
 ## Background and history
 
-About two years ago I picked up a few Linksys MX4300s at a good price hoping to see OpenWRT release on them. Once it was available I started work on turning these into wifi clients that can provide wired connections to remote locations of my house. Initially I had a very basic workflow setup using docs found on openwrt.org (linked below). I started working on a script for fun and then decided to play around with Claude to expand on function. I think it's pretty neat. Nothing special but it works. 
+About two years ago, I picked up a few Linksys MX4300s at a good price, hoping to see OpenWRT released on them. Once it was available, I started working on turning these into Wi-Fi clients that can provide wired connections to remote locations in my house. Initially, I had a very basic workflow setup using the docs found on openwrt.org (linked below). I started working on a script for fun and then decided to play around with Claude to expand on the function. I think it's pretty neat. Nothing special, but it works. 
 
 ## References 
 
