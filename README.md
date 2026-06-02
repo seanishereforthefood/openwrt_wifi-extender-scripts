@@ -10,7 +10,7 @@ This script was created with the assistance of AI.
 
 - **Network Scanning**: Automatically discovers and displays all visible Wi-Fi networks sorted by signal strength
 - **Signal Filtering**: Configurable signal strength threshold to filter out weak networks (default: -85 dBm)
-- - This can be changed by editing the script or using option -S (see below). 
+  - This can be changed by editing the script or using option -S (see below). 
 - **DFS Channel Detection**: Identifies and marks DFS channels that may require CAC wait times
 - **Security Support**: Handles WPA3, WPA2, WPA, WEP, and open networks
 - **Channel Management**: Automatically configures radios to non-DFS channels during scanning to avoid CAC delays
